@@ -1,33 +1,36 @@
-# Building the Local-First Ecosystem 🌌
+# Hi there, I'm Ansh Singla 👋
 
-Hi, I'm Ansh. I build infrastructure and tools designed to democratize deep-tech. 
+I am building the antithesis to the centralized cloud computing model. For the past decade, the tech industry has moved toward bloated web-wrapper applications and hyper-expensive cloud servers—resulting in slow software, compromised privacy, and exorbitant recurring costs.
 
-My core thesis is simple: **Powerful AI should not be locked behind hyper-expensive, centralized cloud servers or require a complex engineering background to use.** 
+My overarching vision is to decentralize computing power and redesign the digital workspace through **Sovereign, Local-First Computing** and **Edge-Native Web Architectures.**
 
-I spend my time bridging the gap between bleeding-edge AI research and everyday accessibility—specifically focusing on hardware-accelerated, local-first inference using edge-native architectures.
+### 🚀 The Execution Pipeline (Three Pillars)
+This vision is grounded in a highly specific, modern technology stack, executed across three distinct fronts:
 
-### 🔬 The Active Lab & Pipeline
+* 🎙️ **Pillar 1: Rust & Tauri (Whisper Studio / CAPIT)**
+  Instead of relying on heavy cloud servers to process video and audio, **[CAPIT](https://github.com/singla0009/capit)** taps directly into local hardware (GPUs via CUDA, ONNX Runtime). This completely eradicates software bloat, bypasses expensive API calls, ensures zero latency, and provides complete user privacy.
 
-I am actively building a connected ecosystem of tools that operate entirely on local consumer hardware and serverless edge nodes.
+* 🌐 **Pillar 2: Small Language Models (Nullshore)**
+  An architectural exploration into a centralized, AI-driven nervous system for the open-source world. Instead of outsourcing intelligence to trillion-dollar companies via expensive API keys, Nullshore integrates Small Language Models (SLMs) on the edge to make highly complex deep-tech instantly discoverable globally.
 
-* 🎙️ **[CAPIT / Whisper Studio](https://github.com/singla0009/capit)** *(Live)*
-  A desktop application proving that high-performance AI doesn't need the cloud. By utilizing **Rust, Tauri, and ONNX Runtime**, CAPIT taps directly into consumer GPUs to provide instant, 100% offline, hardware-accelerated audio transcription. It is built with a zero-code graphical interface so anyone can use it.
-
-* 🌐 **Nullshore** *(In Development)*
-  An architectural exploration into AI-powered discovery for open-source deep-tech. The goal is to move beyond traditional tag-based searching by using Small Language Models (SLMs) and vector embeddings to parse complex codebases, scaled globally via Cloudflare edge infrastructure.
-
-* 🏢 **Bespoke Architecture Design** 
-  Alongside product development, I work to replace fragile legacy systems (like monolithic Excel databases) with robust, modular web architectures utilizing **Next.js 15, TypeScript, and Supabase**, always adhering to a strict, modern design aesthetic (dark mode, glassmorphism, Inter typography).
+* 🏢 **Pillar 3: Modular Edge-Native Infrastructure**
+  For enterprise and agency clients, I engineer custom architectures utilizing **Next.js 15, Supabase, and Cloudflare Workers**. By distributing logic to the "edge", we achieve immediate load times and infinitely scalable platforms. Every product carries a signature ultra-modern, glassmorphic, dark-mode aesthetic to elevate brand authority.
 
 ### 🧠 Open-Source Model Quantization
-To power the local-first movement, I actively port and quantize state-of-the-art ASR models into the highly optimized `.gguf` format so they can be run on standard hardware.
+To empower regional markets and developers without massive cloud budgets, I actively port and quantize state-of-the-art ASR models into the highly optimized `.gguf` format for local execution.
 - 🌍 **[Parakeet-TDT 0.6B Multilingual GGUF](https://huggingface.co/Singla0009/Parakeet-TDT-0.6B-Multilingual-GGUF)** (Supports 25+ European languages)
 - 🇮🇳 **[IndicConformer GGUF](https://huggingface.co/Singla0009/IndicConformer-GGUF)** (Optimized for Hindi and Punjabi)
 - 🇵🇹 **[Portuguese FastConformer Hybrid GGUF](https://huggingface.co/Singla0009/Portuguese-FastConformer-Hybrid-GGUF)**
 - 🗣️ **[Hinglish Conformer CTC GGUF](https://huggingface.co/Singla0009/Hinglish-Conformer-CTC-GGUF)**
 
+### 🌍 The Economic Impact
+The shift from cloud-dependent SaaS to local-first architecture has profound implications:
+- **Operational Liberation:** Startups are no longer suffocated by massive monthly server bills, freeing up capital to stimulate localized tech economies.
+- **Data Sovereignty:** By keeping processing on-device, brands maintain complete ownership and security over their intellectual property without relying on generic public clouds.
+- **Accelerating Innovation:** By making deep-tech easily discoverable and runnable on consumer hardware, we reduce the time-to-market for thousands of founders globally.
+
 ### ⚙️ Technologies & Architecture
-`Rust` | `Tauri` | `Next.js 15` | `Cloudflare` | `C++ / Whisper.cpp` | `GGUF Quantization`
+`Rust` | `Tauri` | `Next.js 15` | `Cloudflare Workers` | `C++ / Whisper.cpp` | `GGUF Quantization`
 <br/>
 *Search Indexing: Quantized GGUF binaries, Offline speech-to-text models, Local privacy-first audio transcription, Parakeet-CPP, NVIDIA NeMo ASR conversion, FastConformer Hybrid, Conformer CTC, Vulkan accelerated inference, Whisper alternative.*
 
