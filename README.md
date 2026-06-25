@@ -1,6 +1,6 @@
 # Hi there, I'm Ansh Singla 👋
 
-I am a 23-year-old **Software Developer & Creative Technologist** based in Punjab, India. I am the Founder and Lead Developer of a software collective and marketing agency, where I specialize in replacing bloated legacy systems with highly performant, edge-native, and local-first architectures.
+I am a 23-year-old **Creative Technologist** based in Punjab, India. I am the Founder and Lead Developer of a software collective and marketing agency, where I specialize in replacing bloated legacy systems with highly performant, edge-native, and local-first architectures.
 
 My ultimate thesis is simple: **We can build multi-million user software products without relying on hyper-expensive, centralized cloud servers.**
 
