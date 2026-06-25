@@ -1,41 +1,43 @@
 # Ansh Singla
 
-I am building the antithesis to the centralized cloud computing model. For the past decade, the tech industry has moved toward bloated web-wrapper applications and hyper-expensive cloud servers—resulting in slow software, compromised privacy, and exorbitant recurring costs.
+Technology should empower people, not gatekeep them behind expensive subscriptions or complex coding requirements. 
 
-My overarching vision is to decentralize computing power and redesign the digital workspace through **Sovereign, Local-First Computing** and **Edge-Native Web Architectures.**
+For the past decade, the industry has pushed us toward renting software from massive cloud companies. This has resulted in slow apps, compromised privacy, and rising costs for everyday users and startups. 
+
+My mission is to reverse this trend. I build **community-driven, local-first software**—tools that run incredibly fast on the computer you already own, respect your privacy by never sending your data to the cloud, and are built to be accessible for everyone.
 
 ---
 
 ## The Execution Pipeline
 
-This vision is not theoretical; it is actively being executed across three distinct technical pillars.
+This vision is actively being built through three core pillars of development, designed to put power back into the hands of the community.
 
-### I. Rust & Tauri for Desktop (Local-First Processing)
-Instead of relying on heavy cloud servers to process video and audio, I build tools that tap directly into local hardware (GPUs via CUDA, ONNX Runtime). This bypasses expensive API calls, ensures zero latency, and guarantees complete user privacy.
+### I. Desktop Software That Respects You (Local-First Processing)
+Instead of relying on distant servers to process your video and audio, I build applications that tap directly into your local hardware (like your graphics card). This means zero lag, no monthly API bills, and the absolute guarantee that your data never leaves your room.
 
 > **Live Example: CAPIT**  
-> [CAPIT](https://github.com/singla0009/capit) is a fully deployed desktop application utilizing a Rust backend and Tauri frontend. It maintains a near-zero memory footprint while utilizing local consumer GPUs to generate hardware-accelerated audio transcription instantly. 
+> [CAPIT](https://github.com/singla0009/capit) is a fully deployed, free desktop app that instantly generates audio transcriptions and subtitles. It features a beautiful, zero-code graphical interface so anyone—from a student to a professional video editor—can use state-of-the-art AI without needing to write a single line of code.
 >
 > **In Development: Whisper Studio**  
-> An upcoming flagship video editing and subtitle generation application. It utilizes the core transcription mechanics proven in CAPIT to bridge high-performance desktop engineering with professional video production, completely offline.
+> An upcoming community-focused video editing suite. It builds upon CAPIT’s core technology to provide professional-grade video tools that operate entirely offline, democratizing high-end video production.
 
-### II. Small Language Models (SLMs)
-Instead of outsourcing intelligence to trillion-dollar companies via API keys, intelligence belongs on the edge. 
+### II. AI for the Community, Not Just Corporations
+Intelligence shouldn't be outsourced to trillion-dollar companies. By utilizing "Small Language Models" (SLMs), we can run powerful AI directly on our own devices or at the network edge.
 
 > **In Development: Nullshore**  
-> An architectural exploration into a centralized, AI-driven nervous system for the open-source world. Nullshore integrates SLMs and vector embeddings to parse complex codebases, allowing obscure deep-tech infrastructure to be instantly discovered and utilized without relying on generic tag-based search algorithms.
+> An exploration into building a new kind of search engine for the open-source community. Nullshore uses AI to help developers and founders instantly discover obscure, highly complex deep-tech infrastructure, accelerating global innovation by making open-source knowledge truly accessible.
 
-### III. Modular Edge-Native Infrastructure
-For enterprise clients and platform deployments, logic must be distributed to the "edge" (servers physically closest to the user) to achieve immediate load times and infinite scalability without monolithic AWS instances.
+### III. Faster, Better Web Infrastructure
+When we do build for the web, it must be fast and modular. I work with brands and agencies to replace their fragile legacy systems (like massive, broken Excel sheets) with modern, blazing-fast web architectures. 
 
 > **Live Implementations**  
-> Engineering bespoke architectures utilizing Next.js 15, Supabase, and Cloudflare Workers. A recent deployment involved migrating a legacy HR firm's fragile Excel records into a secure, high-speed relational application data system. Every product carries a signature ultra-modern, glassmorphic, dark-mode aesthetic to elevate brand authority.
+> By distributing logic globally using Next.js and Cloudflare, I help businesses scale efficiently. Every project is built with a signature modern, dark-mode aesthetic to prove that powerful utility software can also be beautiful.
 
 ---
 
-## Open-Source Model Quantization
+## Democratizing High-End AI Models
 
-To ensure developers and users in regional markets have access to powerful AI tools without massive cloud budgets, I actively port and quantize state-of-the-art ASR models into the highly optimized `.gguf` format for local execution.
+To ensure developers and users around the world have access to top-tier AI tools, I actively convert and optimize massive, state-of-the-art speech models into the highly efficient `.gguf` format. This allows anyone to run them locally, for free.
 
 * **[Parakeet-TDT 0.6B Multilingual GGUF](https://huggingface.co/Singla0009/Parakeet-TDT-0.6B-Multilingual-GGUF)** — Supports 25+ European languages
 * **[IndicConformer GGUF](https://huggingface.co/Singla0009/IndicConformer-GGUF)** — Optimized for Hindi and Punjabi
@@ -44,7 +46,9 @@ To ensure developers and users in regional markets have access to powerful AI to
 
 ---
 
-## Technologies & Architecture
+## The Technology Under the Hood
+
+For those interested in the technical stack powering this ecosystem:
 
 **Core Stack:** `Rust` | `Tauri` | `Next.js 15` | `Cloudflare Workers` | `Supabase`  
 **AI & Systems:** `C++` | `Whisper.cpp` | `GGUF Quantization` | `ONNX Runtime` | `CUDA`
